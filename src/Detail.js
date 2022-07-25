@@ -32,7 +32,7 @@ const Detail = () => {
     },[])
 
     useEffect(()=> {
-        setTimeout(()=> {SettimeSale(false)}, 3000); 
+        setTimeout(()=> {SettimeSale(false)}, 5000); 
     },[])
 
     useEffect(()=>{
@@ -55,7 +55,7 @@ const Detail = () => {
         <div className="container">
             <div className="row">
                 {
-                    timeSale === true ? <div className='timesale'><p>※ 배송비 이벤트 기간 ~8월 15일 (3초후에 사라집니다.) </p></div> : null
+                    timeSale === true ? <div className='timesale'><p>※ 배송비 이벤트 기간 ~8월 15일 (5초후에 사라집니다.) </p></div> : null
                 }
                 
                 <div className="col-md-8 thumb-info">
