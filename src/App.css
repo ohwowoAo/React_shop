@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 @font-face {
-  font-family: 'NanumSquareRound';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-family: "NanumSquareRound";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-body{font-family: 'NanumSquareRound';}
+body {
+  font-family: "NanumSquareRound";
+}
 
 .App {
   text-align: center;
@@ -50,36 +53,36 @@ body{font-family: 'NanumSquareRound';}
 .container .navbar-brand a {
   color: #000;
   font-size: 1.3rem;
-  font-family: 'NanumSquareRound';
+  font-family: "NanumSquareRound";
   letter-spacing: 2px;
 }
 
 .main-bg {
-  height : 600px;
-  background-image : url('./../public/img/mainbgimg.webp');
-  background-size : cover;
-  background-position : center;
+  /* height: 600px;
+  background-image: url("./../public/img/mainbgimg.webp");
+  background-size: cover;
+  background-position: center; */
 }
 
 /* 배너영역 */
-.bannerArea{
+.bannerArea {
   width: 95%;
   margin: 150px auto;
 }
-.bannerArea .banner{
+.bannerArea .banner {
   display: inline-block;
   position: relative;
-  width: calc(100%/3 - 30px);
+  width: calc(100% / 3 - 30px);
   margin: 0 15px;
   border-radius: 100px;
   overflow: hidden;
   cursor: pointer;
 }
-.bannerArea .banner:hover > div{
+.bannerArea .banner:hover > div {
   opacity: 1;
   transform: all 0.3s;
 }
-.bannerArea .banner > div{
+.bannerArea .banner > div {
   opacity: 0;
   display: flex;
   flex-direction: column;
@@ -89,41 +92,40 @@ body{font-family: 'NanumSquareRound';}
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 .bannerArea .banner > div p,
-.bannerArea .banner > div span{
+.bannerArea .banner > div span {
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.bannerArea .banner > div p{
+.bannerArea .banner > div p {
   margin: 0;
   letter-spacing: 3px;
   font-weight: 300;
 }
-.bannerArea .banner > div span{
+.bannerArea .banner > div span {
   letter-spacing: 8px;
   font-weight: 500;
   font-size: 2.6rem;
 }
 @media (max-width: 767px) {
-  .bannerArea .banner{
-    display:block;
+  .bannerArea .banner {
+    display: block;
     width: 65%;
     margin: 0 auto 30px;
   }
 }
 
-
-.bannerArea img{
+.bannerArea img {
   width: 100%;
 }
 
 /* 타이틀 */
-h2{
+h2 {
   font-size: 1.9rem;
   color: #373737;
-  font-family: 'NanumSquareRound';
+  font-family: "NanumSquareRound";
 }
 .mainTitle button {
   margin: 30px 10px 50px;
@@ -131,14 +133,14 @@ h2{
   color: #575656;
   background: none;
   border: 0;
-  font-family: 'NanumSquareRound';
+  font-family: "NanumSquareRound";
 }
-.mainTitle button.on{
+.mainTitle button.on {
   background: #f1f1f1;
   border-radius: 20px;
 }
 /* 더보기버튼 */
-.moreBtn{
+.moreBtn {
   width: 50px;
   padding: 50px 0;
   border: 0;
@@ -146,19 +148,19 @@ h2{
 }
 
 /* 상품정보 */
-.container .col-md-4 h4{
+.container .col-md-4 h4 {
   margin: 20px 0 6px;
-  font-family: 'NanumSquareRound';
+  font-family: "NanumSquareRound";
   font-size: 1.2rem;
 }
-.container .col-md-4 p.mainPrice{
+.container .col-md-4 p.mainPrice {
   margin: 0 0 60px;
-  font-family: 'NanumSquareRound';
+  font-family: "NanumSquareRound";
   font-size: 1rem;
 }
 
 /* 장바구니 */
-.cartAmount{
+.cartAmount {
   border: 1px solid #ccc;
   width: 25px;
   background: #f0f0f0;
